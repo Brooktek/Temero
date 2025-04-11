@@ -50,6 +50,10 @@
             <include layout="@layout/item_module_card"
                 android:id="@+id/card6"/>
 
+            <!-- Dummy Card 7 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card7"/>
+
         </LinearLayout>
     </ScrollView>
 
