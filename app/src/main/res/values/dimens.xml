@@ -12,6 +12,10 @@
     <dimen name="text_spacing_small">4dp</dimen>
     <dimen name="text_spacing_medium">8dp</dimen>
 
+    <!-- Sizes -->
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="metadata_text_size">14sp</dimen>
+
     <!-- Other -->
     <dimen name="progress_height">4dp</dimen>
     <dimen name="divider_size">1dp</dimen>

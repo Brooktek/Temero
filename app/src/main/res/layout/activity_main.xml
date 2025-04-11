@@ -1,27 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/main"
     android:background="@color/background">
 
     <!-- Toolbar -->
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary_color"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"/>
 
-    <!-- Main Content Area -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_modules"
+    <!-- Content Area -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/content_padding"
-        android:clipToPadding="false"/>
+        android:padding="@dimen/content_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Dummy Card 1 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card1"/>
+
+            <!-- Dummy Card 2 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card2"/>
+
+            <!-- Dummy Card 3 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card3"/>
+
+            <!-- Dummy Card 4 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card4"/>
+
+            <!-- Dummy Card 5 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card5"/>
+
+            <!-- Dummy Card 6 -->
+            <include layout="@layout/item_module_card"
+                android:id="@+id/card6"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
