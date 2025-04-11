@@ -28,7 +28,8 @@
 
             <!-- Dummy Card 1 -->
             <include layout="@layout/item_module_card"
-                android:id="@+id/card1"/>
+                android:id="@+id/card1"
+                />
 
             <!-- Dummy Card 2 -->
             <include layout="@layout/item_module_card"
