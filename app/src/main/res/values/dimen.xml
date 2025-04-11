@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Content padding -->
+    <dimen name="content_padding">16dp</dimen>
+
+    <!-- Card dimensions -->
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_spacing">8dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+
+    <!-- Text spacing -->
+    <dimen name="text_spacing_small">4dp</dimen>
+    <dimen name="text_spacing_medium">8dp</dimen>
+
+    <!-- Other -->
+    <dimen name="progress_height">4dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+</resources>

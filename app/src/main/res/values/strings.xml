@@ -1,0 +1,10 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Temero</string>
+
+    <!-- UI Labels -->
+    <string name="new_badge">NEW</string>
+    <string name="tier_format">Tier %1$s</string>
+    <string name="sections_format">%1$s Sections</string>
+    <string name="duration_format">%1$s hours</string>
+</resources>

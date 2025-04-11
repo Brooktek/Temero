@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/background">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_color"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <!-- Main Content Area -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_modules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/content_padding"
+        android:clipToPadding="false"/>
+
+</LinearLayout>
